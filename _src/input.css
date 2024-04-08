@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  img, video {
+    height: initial;
+  }
+} */
+
+body {
+  font-family: 'Lato', sans;
+}
+.primary {  color: #692217;  }
+.secondary {  color: #00ff98;  }
+.accent {  color: #00f8bd;  }
+.neutral {  color: #0b0c0c;  }
+.base-100 {  color: #fff6f5;  }
+.info {  color: #0096ff;  }
+.success {  color: #00f8bd;  }
+.warning {  color: #f96b00;  }
+.error {  color: #c5008c;  }
+
+/*--
+"primary": "#692217", 
+"secondary": "#00ff98", 
+"accent": "#00f8bd", 
+"neutral": "#0b0c0c", 
+"base-100": "#f5fffb", 
+"info": "#0096ff",
+"success": "#00f8bd",
+"warning": "#f96b00",
+"error": "#c5008c",
+
+"primary": "#7700ff",
+"secondary": "#00c8ff",
+"accent": "#9bc500",
+"neutral": "#0c0305",
+"base-100": "#fffbf5",
+"info": "#006bf9",
+"success": "#bdf800",
+"warning": "#ff9600",
+"error": "#c81f3f",
+
+"primary": "#ff7700", 
+"secondary": "#00ff98", 
+"accent": "#c5008c", 
+"neutral": "#050c0e", 
+"base-100": "#f5fffb", 
+"info": "#f96b00",
+"success": "#00f8bd",
+"warning": "#0096ff",
+"error": "#3f8cc8",
+--*/

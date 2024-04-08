@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrainSTEM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Spectral:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar px-1 py-2 sm:px-4 lg:px-8 border-b-2 border-t-2 border-primary">
+      <div class="flex-1">
+        <a class="btn btn-ghost flex text-primary text-lg" href="index.html">
+          <svg class="flex-none w-14" viewBox="0 0 50 43">
+            <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="logo-inner" transform="translate(0, -1)" fill="currentColor" fill-rule="nonzero">
+                    <path d="M13.8841994,3.68530682 C16.8526284,0.759065213 21.3884995,0.157797123 25.0103272,2.21044443 C27.7932874,0.738964513 31.2047096,1.25482864 33.4336331,3.48418922 C36.9512165,2.19566107 40.891779,3.43033522 43.0576002,6.49961243 C45.1231864,6.80384137 46.9091864,8.10637457 47.8375661,9.98565082 C49.0057036,12.1739478 49.0553471,14.7933488 47.9709729,17.0247668 C49.5833596,19.2213556 50.2758143,21.9651712 49.9000354,24.6685764 C49.5703215,26.9169359 48.2514492,28.8968328 46.3087241,30.0598688 C46.0352072,33.1859921 43.9594412,35.8587428 41.0084716,36.8844593 L41.0084716,37.0064707 C41.9068471,39.2266696 42.3602063,41.6032954 42.3425397,44 L39.6744035,44 C39.7061352,41.9028872 39.2969937,39.8226663 38.4737423,37.8954105 L38.3403355,37.612505 L38.3403355,34.9885908 L39.252838,34.6842328 C42.1877878,33.6987566 43.6766078,31.8726088 43.6766078,29.251376 L43.6766078,28.4227715 L44.4183496,28.0513744 C45.9510826,27.3497935 47.0247129,25.9142778 47.2692531,24.2395255 C47.5787567,22.0261251 46.8945661,19.7888555 45.4015578,18.1322544 L44.6277983,17.3545997 L45.2347993,16.440185 C46.2649819,14.8900309 46.3629062,12.8959224 45.4896063,11.2513509 C44.913642,10.0134255 43.7009605,9.1996958 42.3425397,9.13961612 L41.6328155,9.13961612 L41.2325951,8.54296724 C39.9918295,6.3369491 37.448854,5.22170085 34.9958268,5.80776789 C35.4460629,6.86007162 35.6762839,7.99415336 35.6721993,9.13961612 L33.0040631,9.13961612 C33.0943169,7.27098245 32.1244156,5.51200885 30.5000173,4.59838072 C28.9845087,3.79109629 27.1470574,3.90340969 25.7400624,4.88933085 L24.9996546,5.38542093 L24.2605809,4.89201242 C21.4044662,2.92428454 17.5329455,3.4295731 15.2716302,6.06519841 L14.7673525,6.57335555 L14.0669667,6.43123245 C11.65343,5.88987062 9.18189023,7.06231009 8.06366036,9.27905765 C6.98458266,11.0634811 7.20169814,13.3486694 8.59728759,14.8956018 L6.71091532,16.7914704 C5.90129201,15.9759687 5.31414423,14.9647584 5.00597632,13.8551534 C3.9989135,14.5063481 3.25655593,15.4978124 2.9128235,16.6506881 C2.53272377,17.9197215 2.57961394,19.2793131 3.04623031,20.5188499 C3.65996379,19.6926484 4.3913043,18.9616921 5.21675907,18.3494614 L6.81764077,20.4947158 C4.22421242,22.4522604 3.52516075,25.0037724 4.94994546,27.3206471 C6.8924919,30.2045821 10.7109202,31.1094795 13.7307816,29.4015439 L14.5912555,28.9698114 L15.2702961,29.6536112 C16.962134,31.2578765 19.360151,31.866741 21.6071195,31.262552 C20.5284499,29.897411 19.8749922,28.2424824 19.7287517,26.5054504 C17.6308367,26.439526 15.6947169,25.3561571 14.5338906,23.5986307 C13.3618504,21.4149474 13.3368933,18.7907903 14.4671871,16.5849896 L16.855169,17.7836505 C16.1343036,19.1585036 16.1149449,20.797806 16.8031404,22.1894667 C17.4968558,23.3170661 18.9082998,23.8882401 20.9974504,23.8882401 L22.3315185,23.8882401 L22.3315185,25.2290241 C22.2143794,27.1190891 22.9491811,28.9618948 24.3326206,30.2475786 C25.5792934,31.2725041 27.1502323,31.814326 28.7603926,31.7747315 C31.5032365,31.7747315 34.3381312,30.3240032 34.3381312,27.9105921 L37.0062674,27.9105921 C37.0017482,29.8911152 35.9968369,31.7338059 34.3381312,32.8031129 L34.3381312,33.2053481 C34.3748221,35.2175872 35.0791086,37.1598782 36.3392333,38.724015 C37.550332,40.2224412 38.2516726,42.0715536 38.3403355,44 L35.6721993,44 C35.5622711,42.6039241 35.0148834,41.2787924 34.1086715,40.2149668 C32.7483896,38.4221405 31.9163659,36.2814372 31.707349,34.0366341 C30.7475978,34.3144832 29.7538309,34.4557461 28.7550563,34.4562995 C27.0855338,34.4693299 25.4403144,34.0539931 23.9750904,33.2495939 C22.6775429,33.8483166 21.2672402,34.1601451 19.8394793,34.1640086 C17.7494178,34.1859722 15.7157819,33.4827395 14.0816415,32.1729444 C9.95389806,33.9647286 5.14203884,32.511527 2.68069565,28.7298111 C1.73313145,27.2008448 1.38063186,25.3740889 1.69081714,23.5999715 C0.0722052259,21.3692437 -0.417727288,18.507082 0.366087531,15.8609663 C1.03062973,13.6238494 2.66453046,11.8078048 4.81253644,10.9188365 C4.93163661,9.90241765 5.23790535,8.91715109 5.71570054,8.01335756 C7.26122101,4.98701772 10.5264969,3.25692261 13.8841994,3.68530682 Z M37.0902434,14 C37.399841,14.8867431 37.5836489,15.8103607 37.6365923,16.7453536 C38.9817304,16.6838803 40.307059,17.0785329 41.3859119,17.8618151 C43.1435796,19.3117387 44.106439,21.4744216 43.9906305,23.7122858 L41.2588858,23.7122858 C41.3654425,22.3034873 40.8010693,20.9250557 39.7277429,19.9726044 C39.0357455,19.48906 38.1745323,19.2923331 37.3333687,19.4256577 C37.1843755,19.937135 36.977311,20.4309182 36.7159944,20.8979001 C35.3862373,23.0356029 33.1872885,24.5260257 30.663814,25 L30,22.4245716 C31.7834939,22.1264361 33.3528779,21.1063254 34.3175225,19.6181511 C35.0537246,18.1174139 35.1179995,16.3874446 34.4950859,14.8390056 Z M17,9.54713026 C19.2642494,8.81762325 21.7049963,8.81762325 23.9692457,9.54713026 C26.3056011,10.2075556 28.1775661,11.9361345 29,14.192546 L26.5396568,15 C25.5140822,11.9631042 21.0893493,10.9039596 17.8183878,11.9746027 Z" id="brain" transform="translate(25, 22.5) scale(-1, 1) translate(-25, -22.5)"></path>
+                </g>
+            </g>
+        </svg>
+        BrainSTEM
+        </a>
+      </div>
+      <div class="flex-none gap-2">
+        <div class="form-control">
+          <input type="text" placeholder="Search" class="input input-bordered border-neutral w-24 md:w-auto " />
+        </div>
+        <div class="dropdown dropdown-end">
+          <button tabindex="0" role="button" class="btn btn-ghost btn-circle p-2 border border-neutral">                       
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-full">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+            </svg>
+          </button>
+          <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content rounded-box w-52 bg-base-100">
+            <li>
+              <a class="justify-between">
+                <span class="badge bg-success">Coming soon</span>
+                Sign up
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Unit -->
+    <section class="hero aspect-[16/7] shadow-inner border border-b-2 border-primary" style="background-image: url(_src/img/splash1.png);">
+      <div class="relative hero-content m-6 lg:m-8 py-8 px-10 sm:translate-x-0 md:translate-x-28 lg:translate-x-60 xl:translate-x-96 rounded-box bg-base-100 border-2 border-primary shadow-xl opacity-[.92]">
+        <div class="max-w-sm flex flex-col">
+          <h1 class="mb-3 mt-5 text-5xl font-bold">BrainSTEM</h1>
+          <p class="text-2xl mb-3">Emerging Technologies in Technical and Professional Communication</p>
+          <p class="mb-5 text-xl">Studying and improving how <strong>machines</strong> work with <strong>humans…</strong> and <em>vice versa</em>.</p>
+          <a class="btn btn-primary btn-wide text-lg py-2 mt-3 self-center" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 1 1 0-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 0 1-1.44-4.282m3.102.069a18.03 18.03 0 0 1-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 0 1 8.835 2.535M10.34 6.66a23.847 23.847 0 0 0 8.835-2.535m0 0A23.74 23.74 0 0 0 18.795 3m.38 1.125a23.91 23.91 0 0 1 1.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 0 0 1.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 0 1 0 3.46" />
+            </svg> 
+            Coming Soon                       
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Highlights Banner -->
+    <section class="container mx-auto mb-12 mt-4 lg:-mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 px-6 lg:px-8">
+      <article class="card lg:card-side bg-base-100 shadow-xl hover:shadow transition-all">
+        <figure class="min-w-min"><img class="h-full" src="_src/img/student1.jpg" alt="students"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Boosting interest in health careers</h2>
+          <p>SEPA and NIH initiative to inspire a new generation of professionals.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-outline btn-primary">
+              Learn more
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+              </svg>                          
+            </button>
+          </div>
+        </div>
+      </article><!--end .card-->
+      <article class="card lg:card-side bg-base-100 shadow-xl hover:shadow transition-all">
+        <figure class="min-w-min"><img class="h-full" src="_src/img/brain1.png" alt="Album"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Cutting edge brain science</h2>
+          <p>Research Projects pioneering innovations in neuroscience and cognition.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-outline btn-primary">
+              Learn more
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+              </svg>                          
+            </button>
+          </div>
+        </div>
+      </article><!--end .card-->
+      <article class="card lg:card-side bg-base-100 shadow-xl hover:shadow transition-all">
+        <figure class="min-w-min"><img class="h-full" src="_src/img/laptop1.jpg" alt="Album"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Inclusive and accessible curricula</h2>
+          <p>CExpanding Educational Horizons with Universally Designed, Inclusive Coursework.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-outline btn-primary">
+              Learn more
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+              </svg>                          
+            </button>
+          </div>
+        </div>
+      </article><!--end .card-->
+    </section>
+    <!-- Highlight One Section  -->
+    <section class="container my-24 py-12">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div class="lg:pr-8 lg:pt-4">
+            <div class="lg:max-w-lg">
+              <h2 class="text-primary font-semibold leading-7">Boosting interest in</h2>
+              <p class="mt-2 text-3xl font-bold text-neutral sm:text-4xl">Health Science and STEM</p>
+              <p class="mt-6 text-lg leading-8 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+              <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z" clip-rule="evenodd" />
+                    </svg>
+                    Push to deploy.
+                  </dt>
+                  <dd class="inline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                </div>
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
+                    </svg>
+                    SSL certificates.
+                  </dt>
+                  <dd class="inline">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</dd>
+                </div>
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                      <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                    </svg>
+                    Database backups.
+                  </dt>
+                  <dd class="inline">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <img src="_src/img/teach.jpg" alt="classroom teaching" class="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[53rem] md:-ml-4 lg:-ml-0" width="2432" height="1442">
+        </div>
+      </div>
+    </section> 
+    <!-- Highlight Two Section  -->
+    <section class="container my-24 py-12">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div class="lg:pr-8 lg:pt-4">
+            <div class="lg:max-w-lg">
+              <h2 class="text-primary font-semibold leading-7">Boosting interest in</h2>
+              <p class="mt-2 text-3xl font-bold text-neutral sm:text-4xl">Health Science and STEM</p>
+              <p class="mt-6 text-lg leading-8 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+              <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z" clip-rule="evenodd" />
+                    </svg>
+                    Push to deploy.
+                  </dt>
+                  <dd class="inline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                </div>
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
+                    </svg>
+                    SSL certificates.
+                  </dt>
+                  <dd class="inline">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</dd>
+                </div>
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                      <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                    </svg>
+                    Database backups.
+                  </dt>
+                  <dd class="inline">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <img src="_src/img/skull.jpg" alt="classroom teaching" class="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[53rem] md:-ml-4 lg:-ml-0" width="2432" height="1442">
+        </div>
+      </div>
+    </section>
+    <!-- Highlight Three Section  -->
+    <section class="container my-24 py-12">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div class="lg:pr-8 lg:pt-4">
+            <div class="lg:max-w-lg">
+              <h2 class="text-primary font-semibold leading-7">Boosting interest in</h2>
+              <p class="mt-2 text-3xl font-bold text-neutral sm:text-4xl">Health Science and STEM</p>
+              <p class="mt-6 text-lg leading-8 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+              <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z" clip-rule="evenodd" />
+                    </svg>
+                    Push to deploy.
+                  </dt>
+                  <dd class="inline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</dd>
+                </div>
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
+                    </svg>
+                    SSL certificates.
+                  </dt>
+                  <dd class="inline">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</dd>
+                </div>
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg class="absolute left-1 top-1 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                      <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                    </svg>
+                    Database backups.
+                  </dt>
+                  <dd class="inline">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <img src="_src/img/couch.jpg" alt="classroom teaching" class="w-full max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[53rem] md:-ml-4 lg:-ml-0">
+        </div>
+      </div>
+    </section> 
+    <!-- Team Section  -->
+    <section class="container py-24 sm:py-32">
+      <div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+        <div class="max-w-2xl">
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet the Project Team</h2>
+          <p class="mt-6 text-lg leading-8 text-gray-600">Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae elementum enim vitae ullamcorper suspendisse.</p>
+        </div>
+        <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder / CEO</p>
+              </div>
+            </div>
+          </li>
+          <!-- More people... -->
+        </ul>
+      </div>
+    </section>
+    <!-- More people... -->
+    <footer class="container bg-primary">
+
+    </footer>
+  </body>
+</html>
