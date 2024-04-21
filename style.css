@@ -515,22 +515,22 @@ html {
 }
 
 :root {
-  --b2: 91.1253% 0.009088 25.072907;
-  --b3: 84.2664% 0.008404 25.072907;
-  --bc: 19.5968% 0.001954 25.072907;
-  --pc: 87.1947% 0.020822 31.364448;
-  --sc: 90.1995% 0.016119 181.443239;
+  --b2: 89.6199% 0.005117 211.039035;
+  --b3: 82.8743% 0.004732 211.039035;
+  --bc: 19.2731% 0.0011 211.039035;
+  --pc: 87.4128% 0.013293 217.675796;
+  --sc: 12.5121% 0.02277 219.931563;
   --ac: 11.0676% 0.019941 169.54784;
   --nc: 85.5527% 0.000727 286.16067;
   --inc: 11.4097% 0.019476 194.768948;
   --suc: 13.1704% 0.039471 140.602121;
   --wac: 15.4418% 0.032589 104.471365;
   --erc: 90.0615% 0.038167 7.541759;
-  --p: 35.9736% 0.10411 31.364448;
-  --s: 50.9974% 0.080594 181.443239;
+  --p: 37.0638% 0.066465 217.675796;
+  --s: 62.5603% 0.113849 219.931563;
   --a: 55.3382% 0.099706 169.54784;
   --n: 27.7633% 0.003634 286.16067;
-  --b1: 97.9842% 0.009772 25.072907;
+  --b1: 96.3655% 0.005502 211.039035;
   --in: 57.0486% 0.097381 194.768948;
   --su: 65.8522% 0.197354 140.602121;
   --wa: 77.2088% 0.162947 104.471365;
@@ -1672,6 +1672,10 @@ select {
   .btn-primary {
     --btn-color: var(--fallback-p);
   }
+
+  .btn-secondary {
+    --btn-color: var(--fallback-s);
+  }
 }
 
 @supports (color: color-mix(in oklab, black, black)) {
@@ -1727,6 +1731,16 @@ select {
   .btn-primary {
     --btn-color: var(--p);
   }
+
+  .btn-secondary {
+    --btn-color: var(--s);
+  }
+}
+
+.btn-secondary {
+  --tw-text-opacity: 1;
+  color: var(--fallback-sc,oklch(var(--sc)/var(--tw-text-opacity)));
+  outline-color: var(--fallback-s,oklch(var(--s)/1));
 }
 
 .btn.glass {
@@ -2490,6 +2504,23 @@ select {
   padding: 0px;
 }
 
+.avatar.online:before {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  display: block;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-su,oklch(var(--su)/var(--tw-bg-opacity)));
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: var(--fallback-b1,oklch(var(--b1)/1));
+  width: 15%;
+  height: 15%;
+  top: 7%;
+  right: 7%;
+}
+
 .card-compact .card-body {
   padding: 1rem;
   font-size: 0.875rem;
@@ -3046,6 +3077,11 @@ select {
   padding-bottom: 6rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -3184,6 +3220,11 @@ select {
 .text-primary {
   --tw-text-opacity: 1;
   color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
+}
+
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: var(--fallback-s,oklch(var(--s)/var(--tw-text-opacity)));
 }
 
 .opacity-\[\.92\] {
@@ -3451,6 +3492,10 @@ body {
 
   .md\:w-20 {
     width: 5rem;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
   }
 
   .md\:w-auto {
